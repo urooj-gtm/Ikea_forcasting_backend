@@ -1,0 +1,11 @@
+fastapi>=0.115,<1
+uvicorn>=0.30
+python-multipart>=0.0.9
+pandas>=2.1,<3
+numpy>=1.26
+# Optional: only needed for the /api/prophet scenario endpoint (heavy install; the API returns 422 without it)
+prophet>=1.1.6,<2
+
+# Dev / test
+pytest>=8
+httpx>=0.27
